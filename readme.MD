@@ -3,6 +3,5 @@
 Service Principal Thumbprint can be obtained by 
 
 
-CustomKeyIdentifier = (Get-AzureADApplicationKeyCredential -ObjectId "<object-id>").
-CustomKeyIdentifier
+CustomKeyIdentifier = (Get-AzureADApplicationKeyCredential -ObjectId "<object-id>").CustomKeyIdentifier
 $Thumbprint = [System.Convert]::ToBase64String($CustomKeyIdentifier) 
